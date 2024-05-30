@@ -1,44 +1,50 @@
-⁠Introduction.
-The Book Store is a desktop-based application designed to manage a book store's inventory.
-The project is built using Python and Tkinter library for the graphical user interface (GUI), 
-with SQLite as the database management system.
+# Book Store README
 
-Application Features
+## Introduction
+
+The Book Store is a desktop-based application designed to manage a book store's inventory. It is built using Python and Tkinter library for the graphical user interface (GUI), with SQLite as the database management system.
+
+## Application Features
+
 •⁠  ⁠Add, edit, and delete books: Users can add new books, edit existing ones, and delete books that are in the inventory.
 •⁠  ⁠Search books: Users can search for books by title, author, or ISBN.
 •⁠  ⁠Inventory management: Users can view the current inventory and view all books stored.
 
+## Project Breakdown
 
+### Day 1: Project set up
 
-Project Breakdown:
-BOOK STORE
+•⁠  ⁠Create Github organization and repository, and clone said repository.
+•⁠  ⁠Define the features and functionalities of the book store app.
+•⁠  ⁠Decide and research on the technology stack I will use for frontend, backend, and database.
 
-Day 1: Project set up:
-Creating Github organisation & Repository and cloning said repository.
-Define the features and functionalities of the book store app.
-Decide and research on the technology stack I will use for frontend, backend, and database.
+### Day 2: Frontend (GUI)
 
-Day 2: Frontend (GUI) :
-Set up and installation of Python project and necessary tools such as Tkinter library and SQLite.
-Design the GUI: I Plan the layout and create the necessary Tkinter widgets for the application.
+•⁠  ⁠Set up and installation of Python project and necessary tools such as Tkinter library and SQLite.
+•⁠  ⁠Design the GUI, including layout and appearance of the application.
 
-Day 3: Database:
-Seting up the database: Creating the SQLite database and tables to store books.
-Implement CRUD operations: Write Python code to perform CRUD operations on the database.
+### Day 3: Database Setup
 
-Day 4 : Backend :
-Integrate GUI and backend: Connect the Tkinter GUI with the Python backend 
-to enable user interaction with the application.
-Implement additional features: Add features like search, view all and close.
+•⁠  ⁠Set up SQLite database and create the necessary tables for storing book information.
+•⁠  ⁠Integrate the database with the GUI to allow for data input, retrieval, and manipulation.
 
-Day 5 : Finalization:
-Finalize on any remaining matter and add any new features if possible e.g adding API from 
-book store website so that users can search and find any books they want.
+### Day 4: Application Functionality
 
-Day 6 : Test and debug:
-Test the application for functionality and fix any issues that arise.
-Deploy: Package the application for distribution and make it available to users.
+•⁠  ⁠Implement the functionality to add, edit, and delete books.
+•⁠  ⁠Implement the functionality to search for books by title, author, or ISBN.
+•⁠  ⁠Implement inventory management features, allowing users to view the current inventory and all stored books.
 
+### Day 5: Testing and Debugging
 
+•⁠  ⁠Test the application to ensure all features are working as expected.
+•⁠  ⁠Debug and fix any issues that arise during testing.
 
+### Day 6: Deployment
 
+•⁠  ⁠Package the application for distribution.
+•⁠  ⁠Create documentation for users on how to install and use the application.
+
+### Day 7: Review and Future Enhancements
+
+•⁠  ⁠Review the project and identify areas for improvement.
+•⁠  ⁠Discuss potential future enhancements to the application.
