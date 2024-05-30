@@ -2,13 +2,14 @@
 
 ## Introduction
 
-The Book Store is a desktop-based application designed to manage a book store's inventory. It is built using Python and Tkinter library for the graphical user interface (GUI), with SQLite as the database management system.
+The Book Store is a desktop-based application designed to manage a book store's inventory. 
+It is built using Python and Tkinter library for the graphical user interface (GUI), with SQLite as the database management system.
 
 ## Application Features
 
-•⁠  ⁠Add, edit, and delete books: Users can add new books, edit existing ones, and delete books that are in the inventory.
-•⁠  ⁠Search books: Users can search for books by title, author, or ISBN.
-•⁠  ⁠Inventory management: Users can view the current inventory and view all books stored.
+#•⁠  ⁠Add, edit, and delete books: Users can add new books, edit existing ones, and delete books that are in the inventory.
+#•⁠  ⁠Search books: Users can search for books by title, author, or ISBN.
+#•⁠  ⁠Inventory management: Users can view the current inventory and view all books stored.
 
 ## Project Breakdown
 
