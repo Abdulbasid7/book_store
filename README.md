@@ -1,3 +1,61 @@
+# Book Store Documentation: Installation and Usage
+
+## Installation
+
+To install and run the Book Store application, follow these steps:
+
+1. **Prerequisites**:
+   - Ensure you have Python installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
+   - Install Tkinter (Python's standard GUI library) if it's not already included in your Python installation. Tkinter comes bundled with most Python installations, but if you need to install it, you can usually do so through your operating system's package manager (e.g., `pip install tk` on Ubuntu or `conda install tk` on Windows with Anaconda).
+
+2. **Clone the Repository**:
+   - Go to the [Book Store GitHub repository] and click the green "Code" button.
+   - Copy the URL provided for the repository.
+   - Open a terminal or command prompt, navigate to the directory where you want to clone the repository, and run the following command, replacing `<repository-url>` with the copied URL:
+     ```
+     git clone <repository-url>
+     ```
+
+3. **Navigate to the Project Directory**:
+   - After cloning the repository, navigate to the project directory using the `cd` command:
+     ```
+     cd book-store
+     ```
+
+4. **Install Dependencies**:
+   - Install the required dependencies by running the following command:
+     ```
+     pip install -r requirements.txt
+     ```
+
+## Usage
+
+To use the Book Store application, follow these steps:
+
+1. **Run the Application**:
+   - Execute the following command in the terminal or command prompt to run the application:
+     ```
+     python main.py
+     ```
+
+2. **Application Interface**:
+   - The Book Store application will open in a new window with a graphical user interface (GUI).
+   - The main window contains buttons for adding, editing, and deleting books, as well as a search functionality to search for books by title, author, or ISBN.
+   - The inventory management section displays the current inventory and allows you to view all books stored in the database.
+
+3. **Add, Edit, and Delete Books**:
+   - To add a new book, click the "Add Book" button and fill in the necessary details in the pop-up window.
+   - To edit an existing book, select the book from the inventory and click the "Edit Book" button. Fill in the updated details in the pop-up window.
+   - To delete a book, select the book from the inventory and click the "Delete Book" button. Confirm the deletion in the prompt that appears.
+
+4. **Search Books**:
+   - To search for books by title, author, or ISBN, enter the search term in the "Search" input field and click the "Search" button. The results will be displayed in the inventory section.
+
+5. **Inventory Management**:
+   - View the current inventory and all books stored by scrolling through the inventory section or using the pagination controls.
+
+By following these steps, you can install and use the Book Store application to manage your book store's inventory 
+
 # Book Store README
 
 ## Introduction
